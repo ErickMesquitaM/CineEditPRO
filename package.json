@@ -1,0 +1,19 @@
+{
+  "name": "build-movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "ffmpeg": "^0.0.4",
+    "files": "^2.2.1",
+    "meow": "^11.0.0",
+    "ora": "^6.1.2"
+  }
+}
