@@ -1,18 +1,25 @@
 const { exec } = require("child_process");
-const fs = require('fs')
-
 
 function addSubs(names, videos, subsPT, subsEN){
-  first(0)
+  edit(0)
 
-  function first(i){
-    exec( cmd(names[i], videos[i], subsPT[i], subsEN[i], i) , (err, output) => {
-      if (err) {
-        throw console.error("could not execute command: ", err)
+  function edit(i){
+
+    const progress = exec( cmd(names[i], videos[i], subsPT[i], subsEN[i], i) , (err, output) => {
+      if (err) throw console.error(err)
+
+      console.log(numberEp(i) + ' - ' + names[i] + '   ✅')
+      if(videos[i + 1]) edit(i+1)
+    })
+
+    
+    progress.stderr.on('data', data => {
+      var words = data.split(' ');
+      var numberIndex = words.findIndex( (word) => word.startsWith('time') );
+
+      if(numberIndex !== -1){
+        console.log( words[numberIndex].slice(5) );
       }
-  
-      console.log("Foi o: " + names[i])
-      if(videos[i + 1]) first(i+1)
     })
   }
 }
