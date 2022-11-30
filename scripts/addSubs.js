@@ -5,10 +5,14 @@ function addSubs(names, videos, subsPT, subsEN){
 
   function edit(i){
 
+    console.log(numberEp(i) + ' - ' + names[i])
+
     const progress = exec( cmd(names[i], videos[i], subsPT[i], subsEN[i], i) , (err, output) => {
       if (err) throw console.error(err)
 
-      console.log(numberEp(i) + ' - ' + names[i] + '   ✅')
+      console.log('   ✅')
+      console.log('')
+
       if(videos[i + 1]) edit(i+1)
     })
 
@@ -18,7 +22,9 @@ function addSubs(names, videos, subsPT, subsEN){
       var numberIndex = words.findIndex( (word) => word.startsWith('time') );
 
       if(numberIndex !== -1){
-        console.log( words[numberIndex].slice(5) );
+        process.stdout.clearLine(0);
+        process.stdout.cursorTo(0);
+        process.stdout.write( words[numberIndex].slice(5) );
       }
     })
   }
