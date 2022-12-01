@@ -4,6 +4,6 @@ const addSubs = require("./scripts/addSubs");
 const names = getNames()
 const videos = getFiles('videos')
 const subsPT = getFiles('pt')
-const subsEN = getFiles('EN')
+const subsEN = getFiles('en')
 
 addSubs(names, videos, subsPT, subsEN)
