@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "tv-show": "node tv-show.js",
+    "movies": "node movies.js"
   },
   "keywords": [],
   "author": "",
