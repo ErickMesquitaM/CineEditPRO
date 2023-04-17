@@ -1,6 +1,6 @@
 {
   "name": "build-movies",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "child_process": "^1.0.2",
-    "ffmpeg": "^0.0.4",
-    "files": "^2.2.1",
-    "meow": "^11.0.0",
-    "ora": "^6.1.2"
+    "ffmpeg": "^0.0.4"
   }
 }
