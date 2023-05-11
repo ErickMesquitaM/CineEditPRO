@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "node test.js",
     "tv-show": "node tv-show.js",
     "movies": "node movies.js"
   },
@@ -12,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "child_process": "^1.0.2",
-    "ffmpeg": "^0.0.4"
+    "ffmpeg": "^0.0.4",
+    "ffprobe": "^1.1.2",
+    "jschardet": "^3.0.0"
   }
 }
