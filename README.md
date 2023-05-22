@@ -34,7 +34,7 @@ Ferramenta de organizar filmes e séries.
      * **OBS**
           * A capa existente no arquivo sera **perdida**, sê o arquivo de vídeo tiver uma capa, será necessário colocar outra de novo
           
-          * Legendas já embutidas no arquivo, **não** serão perdida, porém sê o arquivo tiver mais do mesmo idioma, **apenas** o maior será gravado no output. E quando os arquivos     tiverem legendas embutidas, demora mais porque é preciso extrair a legenda, e verificar sê ela é compativel com o metodo que essa feramenta utiliza.
+          * Legendas já embutidas no arquivo, **não** serão perdida, porém sê o arquivo tiver mais do mesmo idioma, **apenas** o maior será gravado no output. E quando os arquivos tiverem legendas embutidas, demora mais porque é preciso extrair a legenda, e verificar sê ela é compativel com o metodo que essa feramenta utiliza.
 
           * a ferramenta já codifica as legendas para o formato de "UTF-8" para que não tenha problemas com os acentos e outras coisas.
 
@@ -81,7 +81,9 @@ Ferramenta de organizar filmes e séries.
 
           * sê deu algum problema no meio da execução, ou você cancelou por algum motivo, e quer continuar de onde parou, você precisa remover os arquivos já feitos(nomes, videos, e legendas), e passar um "json" como argumento na hora de executar o comando.
                
-               * Ex: *npm run tv-show '[{\"name\": \"Season 2\", \"index\": 9}*, name referente ao nome da pasta, e o index de onde  parou para que o número do episódio fique certo
+                    Ex: *npm run tv-show '[{\"name\": \"Season 2\", \"index\": 9}*
+                    
+               *name referente ao nome da pasta, e o index de onde  parou para que o número do episódio fique certo
 
 
 
@@ -101,7 +103,9 @@ Ferramenta de organizar filmes e séries.
      
      * **Pastas com as Temporadas**: pode ter quantas pastas quiser.
 
-     * **Milissegundos**: passar como argumento a quantidade de "ms" que deseja adicionar/diminuir. Ex: *npm run sync "ms=-1200"*
+     * **Milissegundos**: passar como argumento a quantidade de "ms" que deseja adicionar/diminuir.
+     
+               Ex: *npm run sync "ms=-1200"*
 
 
 
@@ -114,7 +118,9 @@ Ferramenta de organizar filmes e séries.
 
      * isso retornará um arquivo referente a cada temporada, em "files/output".
 
-     * **OBS**: API ultilizada é do *TMDB*, é preciso criar uma conta, criar um arquivo ".env" e colocar sua "api key", Ex: *TMDB_API_KEY=<API_KEY>*
+     * **OBS**: API ultilizada é do *TMDB*, é preciso criar uma conta, criar um arquivo ".env" e colocar sua "api key".
+      
+               Ex: *TMDB_API_KEY=<API_KEY>*
 
      * **TMDB** https://developer.themoviedb.org/docs
 
