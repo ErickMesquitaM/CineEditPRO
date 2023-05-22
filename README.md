@@ -18,7 +18,7 @@ Ferramenta de organizar filmes e séries.
 
      **Exemplo**
 
-          "nome do filme" => filme.mkv
+          <_NOME DO FILME_> => filme.mkv
                               pob.srt
                               eng.srt
                               capa.jpg
@@ -47,19 +47,19 @@ Ferramenta de organizar filmes e séries.
 
      **Exemplo**
 
-          "temporada 1"   =>  episodio_1.mkv
-                              episodio_2.mkv
-                              episodio_3.mkv
-                              . 
-                              _ENG_ => legenda_1.srt
-                                       legenda_2.srt
-                                       legenda_3.srt
-                              .
-                              _POB_ => algo_1.srt
-                                       algo_2.srt
-                                       algo_3.srt
-                              .
-                              names.txt
+          <_TEMPORADA 1_>   =>  episodio_1.mkv
+                                episodio_2.mkv
+                                episodio_3.mkv
+                                . 
+                                _ENG_ => legenda_1.srt
+                                         legenda_2.srt
+                                         legenda_3.srt
+                                .
+                                _POB_ => algo_1.srt
+                                         algo_2.srt
+                                         algo_3.srt
+                                .
+                                names.txt
 
 
      * **Arquivos de Vídeo**: nome é irrelevante, **porém** a ordem deve ser do primeiro episódio ao último.
