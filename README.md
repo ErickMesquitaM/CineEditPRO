@@ -45,7 +45,7 @@ Ferramenta de organizar filmes e séries.
 
      Comando para organizar séries, todas as temporadas deverão estar separados por pastas em "files/tv-show", ordem dos arquivos **MUITO** importante.
 
-     *exemplo*
+     *input*
 
      _TEMPORADA 1_   =>  episodio_1.mkv
                          episodio_2.mkv
@@ -90,9 +90,9 @@ Ferramenta de organizar filmes e séries.
 
      Comando onde sincroniza as legendas, as legendas deverão estar separadas por pastas referente a temporada em "files/subs".
 
-     ### exemplo
+     *exemplo*
 
-     _POB TEMPORADA 1_   =>   algo_2.srt
+     "POB TEMPORADA 1"   =>   algo_2.srt
                               algo_3.srt
                               legenda_1.srt
                               legenda_4.srt
