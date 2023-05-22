@@ -81,7 +81,7 @@ Ferramenta de organizar filmes e séries.
 
           * sê deu algum problema no meio da execução, ou você cancelou por algum motivo, e quer continuar de onde parou, você precisa remover os arquivos já feitos(nomes, videos, e legendas), e passar um "json" como argumento na hora de executar o comando.
                
-                    Ex: *npm run tv-show '[{\"name\": \"Season 2\", \"index\": 9}*
+                    Ex: npm run tv-show '[{\"name\": \"Season 2\", \"index\": 9}
                     
                *name referente ao nome da pasta, e o index de onde  parou para que o número do episódio fique certo
 
@@ -105,7 +105,7 @@ Ferramenta de organizar filmes e séries.
 
      * **Milissegundos**: passar como argumento a quantidade de "ms" que deseja adicionar/diminuir.
      
-               Ex: *npm run sync "ms=-1200"*
+               Ex: npm run sync "ms=-1200"
 
 
 
