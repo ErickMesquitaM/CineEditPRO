@@ -16,7 +16,7 @@ Ferramenta de organizar filmes e séries.
      
      Comando para organizar os filmes, todos os filmes deverão estar em "files/movies" separados por pastas.
 
-     ### exemplo
+     *exemplo*
 
      _NOME DO FILME_ => filme.mkv
                          pob.srt
@@ -45,7 +45,7 @@ Ferramenta de organizar filmes e séries.
 
      Comando para organizar séries, todas as temporadas deverão estar separados por pastas em "files/tv-show", ordem dos arquivos **MUITO** importante.
 
-     ### exemplo
+     *exemplo*
 
      _TEMPORADA 1_   =>  episodio_1.mkv
                          episodio_2.mkv
