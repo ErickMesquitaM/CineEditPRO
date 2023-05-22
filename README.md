@@ -50,15 +50,15 @@ Ferramenta de organizar filmes e séries.
           <_TEMPORADA 1_>   =>  episodio_1.mkv
                                 episodio_2.mkv
                                 episodio_3.mkv
-                                . 
-                                _ENG_ => legenda_1.srt
-                                         legenda_2.srt
-                                         legenda_3.srt
-                                .
-                                _POB_ => algo_1.srt
-                                         algo_2.srt
-                                         algo_3.srt
-                                .
+                                 
+                                eng => legenda_1.srt
+                                       legenda_2.srt
+                                       legenda_3.srt
+                            
+                                pob => algo_1.srt
+                                       algo_2.srt
+                                       algo_3.srt
+                                
                                 names.txt
 
 
