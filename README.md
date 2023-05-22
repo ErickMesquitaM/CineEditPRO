@@ -45,6 +45,8 @@ Ferramenta de organizar filmes e séries.
 
      Comando para organizar séries, todas as temporadas deverão estar separados por pastas em "files/tv-show", ordem dos arquivos **MUITO** importante.
 
+     **Exemplo**
+
      *input*
 
      _TEMPORADA 1_   =>  episodio_1.mkv
