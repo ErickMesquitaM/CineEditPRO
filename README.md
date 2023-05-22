@@ -24,7 +24,7 @@ Ferramenta de organizar filmes e séries.
                                capa.jpg
 
 
-     * **Arquivo de Vídeo**: nome é irrelevante, poís o nome que vai sair no output vai ser o nome da pasta.
+     * **Arquivo de Vídeo**: nome é irrelevante, pois o nome que vai sair no output vai ser o nome da pasta.
 
      * **Legendas**: pode adicionar quantas quiser, vai salvar o idioma da legenda com o nome do arquivo, então é **IMPOTANTE** que os nomes estejam certos. Ex: "por" para português, "pob" para português-brasil, "eng" para inglês etc...
 
