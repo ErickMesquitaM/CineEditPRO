@@ -73,7 +73,7 @@ Ferramenta de organizar filmes e séries.
 
           * a ferramenta funciona assim, pega o primeiro arquivo de video, e coloca a primeira legenda de cada pasta(sê tiver), e sai com o primeiro nome da lista de nomes, já numerado.
 
-          * a alguns outros comandos que possa facilitar esse trabalho.
+          * ah alguns outros comandos que possa facilitar esse trabalho.
 
                * **get-subs**, sê você baixar as séries do **"RARBG"**, esse comando vai te ajudar bastante.
 
