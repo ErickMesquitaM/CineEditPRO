@@ -49,7 +49,7 @@ Ferramenta de organizar filmes e séries.
 
      *input*
 
-     _TEMPORADA 1_   =>  episodio_1.mkv
+     "TEMPORADA 1"   =>  episodio_1.mkv
                          episodio_2.mkv
                          episodio_3.mkv
                          . 
