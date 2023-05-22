@@ -92,11 +92,11 @@ Ferramenta de organizar filmes e séries.
 
      *exemplo*
 
-     "POB TEMPORADA 1"   =>   algo_2.srt
-                              algo_3.srt
-                              legenda_1.srt
-                              legenda_4.srt
-                              subtitle5.srt
+          "POB TEMPORADA 1"   =>   algo_2.srt
+                                   algo_3.srt
+                                   legenda_1.srt
+                                   legenda_4.srt
+                                   subtitle5.srt
 
      
      * **Pastas com as Temporadas**: pode ter quantas pastas quiser.
