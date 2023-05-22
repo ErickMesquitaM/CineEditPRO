@@ -1,17 +1,27 @@
 {
-  "name": "build-movies",
-  "version": "2.0.0",
+  "name": "cineeditpro",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tv-show": "node tv-show.js",
-    "movies": "node movies.js"
+    "test": "node commands/test.js",
+    "tv-show": "node commands/tv-show.js",
+    "get-names": "node commands/get-names.js",
+    "sync": "node commands/sync.js",
+    "get-subs": "node commands/get-subs.js",
+    "movies": "node commands/movies.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eu mesmo",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "child_process": "^1.0.2",
-    "ffmpeg": "^0.0.4"
+    "dotenv": "^16.0.3",
+    "ffmpeg": "^0.0.4",
+    "ffprobe": "^1.1.2",
+    "jschardet": "^3.0.0",
+    "moment": "^2.29.4",
+    "subtitles-parser-vtt": "^0.1.0"
   }
 }
