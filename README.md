@@ -127,7 +127,7 @@ Ferramenta de organizar filmes e séries.
 
 
 
-* **get-names**
+* **get-subs**
 
      Comando útil apenas para quem usa o **"RARBG"**, apenas colocar a pasta de "Subs" que vem quando baixa algo do RARBG, que remove cada legenda de cada pasta e coloca em outra com o nome da pasta.
 
