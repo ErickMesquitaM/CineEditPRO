@@ -19,9 +19,9 @@ Ferramenta de organizar filmes e séries.
      **Exemplo**
 
           <_NOME DO FILME_> => filme.mkv
-                              pob.srt
-                              eng.srt
-                              capa.jpg
+                               pob.srt
+                               eng.srt
+                               capa.jpg
 
 
      * **Arquivo de Vídeo**: nome é irrelevante, poís o nome que vai sair no output vai ser o nome da pasta.
